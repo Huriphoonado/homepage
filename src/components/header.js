@@ -1,36 +1,65 @@
 /** @jsx jsx */
-import { jsx, NavLink } from 'theme-ui'
+import React, { useState } from 'react';
+import { animateScroll as scroll } from "react-scroll";
+import NavScrollLink from './scroll-link.js';
+
+import {useScrollPosition} from './use-scroll-position.js';
+
+import { useStaticQuery, graphql } from "gatsby";
+import { jsx, NavLink } from "theme-ui";
 
 export default function Header(props) {
+    const data = useStaticQuery(
+        graphql`
+        query {
+            site {
+                siteMetadata {
+                    title
+                }
+            }
+        }
+        `
+    );
+
+    const [scrollerY, setScrollerY] = useState(0);
+    useScrollPosition(({ prevPos, currPos }) => {
+        setScrollerY(Math.min((currPos.y * -1) / 100, 0.8));
+    }, [scrollerY]);
+
     return (
+        <div sx={{zIndex:1}} css={{position: 'sticky', top: 0}}>
         <header
-            sx={{
-                display: 'flex',
-                alignItems: 'center',
-                variant: 'styles.header',
-                p: 20
-            }}
-            css={{
-                position: 'sticky',
-                top: 0,
-                'backdrop-filter': 'blur(4px)',
-            }}>
-            <NavLink href='#!' sx={{
-                variant: 'styles.navlink',
-                color: 'primary', p: 2, }}>
-                Willie Payne
-            </NavLink>
+        sx={{
+            display: 'flex',
+            alignItems: 'center',
+            variant: 'styles.header',
+            p: 20,
+            bg:'background'
+        }}>
+            <NavScrollLink
+                sx={{color: "inherit", variant: 'styles.navlink',
+                fontSize: [2, 4, 6], fontFamily:"writing", "fontVariantCaps": "normal", p: 2}}
+                onClick={() => scroll.scrollToTop({duration:250})}>{data.site.siteMetadata.title}
+            </NavScrollLink>
             <div />
-            <NavLink href='#!' sx={{ variant: 'styles.navlink', p: 2, }}>
-                About
-            </NavLink>
-            <div />
-            <NavLink href='#!' sx={{ variant: 'styles.navlink', p: 2, }}>
-                Publications
-            </NavLink>
-            <NavLink href='#!' sx={{ variant: 'styles.navlink', p: 2, }}>
-                Media
-            </NavLink>
+            {props.urlList.map(u => (
+                <>
+                <NavScrollLink k={u}
+                    sx={{color: "inherit", variant: 'styles.navlink', p: 2}}
+                    activeClass="active" to={u} spy={true} smooth={true}
+                    offset={0} duration={250}>{u}
+                </NavScrollLink>
+                <div />
+                </>
+            ))}
         </header>
+        <div sx={{p: 0, m: 0, mx: 3, position: "sticky", top: 0, opacity: scrollerY/2,
+            bg:"text", height:'1px', width: ["100%" - 3, "60%"],
+            }}/>
+        <div sx={{p: 0, m: 0, mx: 3, position: "sticky", top: 0, opacity: scrollerY/2,
+            bg:"text", height:'1px', width: ["100%" - 3, "60%"], filter:"blur(1px)"
+            }}/>
+        </div>
+
     )
 }

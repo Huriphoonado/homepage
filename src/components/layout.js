@@ -2,25 +2,38 @@
 import { jsx } from 'theme-ui';
 
 import Header from './header.js';
+import TopMatter from './top-matter.js';
+import BioCard from './bio-card.js';
+import Projects from './projects.js';
+import Publications from './publications.js';
+import Video from './video.js';
+import Audio from './audio.js';
 import Footer from './footer.js';
+
 import ImageLayout from './image-layout.js';
 
 export default function Layout(props) {
-  return (<div
+    const URLS = ["About", "Projects", "Publications", "Video", "Audio"];
+
+    return (
+    <div
     sx={{
-      display: 'flex',
-      flexDirection: 'column',
-      minHeight: '100vh',
-      variant: 'layout.root',
+        display: 'flex',
+        flexDirection: 'column',
+        minHeight: '100vh',
+        variant: 'layout.root',
     }}>
-    <Header />
-    <ImageLayout>
-    <h1>Welcome!</h1>
-    <p>Willie Payne is a PhD Candidate in Music Technology at NYU, the Accessible Music Technology Fellow at the Filomen M. D’Agostino Greenberg (FMDG) Music School, and the Research Assistant for the NSF funded project Dancing Across Boundaries!. He is invested in developing holistic, creative tools that enable others to express themselves on their own terms and to build confidence and self worth through positive experiences enacting original art. He has published articles in peer-reviewed journals and conferences including ASSETS (Computers and Accessibility), NIME (New Interfaces for Musical Expression), and MOCO (Movement and Computing). Previously, he studied at CU Boulder where he completed degrees in Computer Science (BS/MS) and Music Composition (BM) and was honored with the distinction Outstanding Graduate of the College of Engineering.</p>
+        <Header urlList={URLS} />
+        <ImageLayout>
+        <div id="Top" sx={{pb: 6}}><TopMatter /></div>
 
-    <p>He still has not finished building this website...</p>
+        <div id={URLS[0]} sx={{py:6, m:0}}><BioCard /></div>
+        <div id={URLS[1]} sx={{py:6, m:0}}><Projects /></div>
+        <div id={URLS[2]} sx={{py:6, m:0}}><Publications /></div>
+        <div id={URLS[3]} sx={{py:6, m:0}}><Video /></div>
+        <div id={URLS[4]} sx={{py:6, m:0}}><Audio /></div>
 
-    </ImageLayout>
-
-  </div>)
+        </ImageLayout>
+        <Footer />
+    </div>)
 }

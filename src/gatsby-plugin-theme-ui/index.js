@@ -1,21 +1,22 @@
 export default {
+    "breakpoints": ["40em", "60em", "68em"],
     "colors": {
-        "text": "hsl(210, 50%, 96%)",
-        "background": "hsl(230, 25%, 18%)",
-        "primary": "hsl(260, 100%, 80%)",
-        "secondary": "hsl(290, 100%, 80%)",
-        "highlight": "hsl(260, 20%, 40%)",
-        "purple": "hsl(290, 100%, 80%)",
-        "muted": "hsla(230, 20%, 0%, 20%)",
-        "gray": "hsl(210, 50%, 60%)"
+        "text": "#3B393C",
+        "background": "#FCFBF6",
+        "primary": "#951F1F",
+        "secondary": "#CA424F",
+        "highlight": "#5AC3D9",
+        "muted": "#f9f7ec",
+        "sideImage":"#3B393C"
     },
     "fonts": {
-        "body": "system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", sans-serif",
-        "heading": "inherit",
-        "monospace": "Menlo, monospace"
+        "body": "apolline, Crimson Pro, system-ui, sans-serif",
+        "heading": "brandon-grotesque, system-ui, sans-serif",
+        "monospace": "Menlo, monospace",
+        "writing": "professor, Liu Jian Mao Cao, system-ui, sans-serif"
     },
     "fontSizes": [
-        12, 14, 16, 20, 24, 32, 48, 64, 72
+        14, 16, 20, 24, 28, 32, 36, 42, 48, 64, 72, 84
     ],
     "fontWeights": {
         "body": 400,
@@ -31,15 +32,6 @@ export default {
             "fontFamily": "heading",
             "fontWeight": "heading",
             "lineHeight": "heading"
-        },
-        "display": {
-            "variant": "textStyles.heading",
-            "fontSize": [
-                5, 6
-            ],
-            "fontWeight": "display",
-            "letterSpacing": "-0.03em",
-            "mt": 3
         }
     },
     "styles": {
@@ -50,10 +42,12 @@ export default {
         "root": {
             "fontFamily": "body",
             "lineHeight": "body",
-            "fontWeight": "body"
+            "fontWeight": "body",
+            "fontSize": 1
         },
         "h1": {
-            "variant": "textStyles.display"
+            "variant": "textStyles.heading",
+            "fontSize": 6
         },
         "h2": {
             "variant": "textStyles.heading",
@@ -65,7 +59,8 @@ export default {
         },
         "h4": {
             "variant": "textStyles.heading",
-            "fontSize": 3
+            "fontSize": 3,
+            "fontStyle": "italic"
         },
         "h5": {
             "variant": "textStyles.heading",
@@ -77,9 +72,6 @@ export default {
         },
         "a": {
             "color": "primary",
-            "&:hover": {
-                "color": "secondary"
-            }
         },
         "pre": {
             "variant": "prism",
@@ -132,34 +124,29 @@ export default {
         },
         "img": {
             "maxWidth": "100%"
-        }
+        },
     },
-    "images": {
-        "sidebar": {
-            "position": ["relative", "fixed"],
-            //"filter": "invert(90%)",
-            "bottom": 0,
-            "right": 0,
-            //"height":"90%",
-            "width": ["100%", "35%", "35%"],
-            "z-index": [-1, 1, 1]
-        }
+    "cards": {
+        "primary": {
+            "borderRadius": 4,
+            "border": '1px solid',
+            "borderColor": 'primary',
+            "bg": 'muted'
+        },
     },
-    "prism": {
-        ".comment,.prolog,.doctype,.cdata,.punctuation,.operator,.entity,.url": {
-            "color": "gray"
-        },
-        ".comment": {
-            "fontStyle": "italic"
-        },
-        ".property,.tag,.boolean,.number,.constant,.symbol,.deleted,.function,.class-name,.regex,.important,.variable": {
-            "color": "purple"
-        },
-        ".atrule,.attr-value,.keyword": {
-            "color": "primary"
-        },
-        ".selector,.attr-name,.string,.char,.bultin,.inserted": {
-            "color": "secondary"
+    "links": {
+        "nav": {
+            "fontSize": [1, 2, 2],
+            "fontWeight":"body",
+            "fontFamily": "heading",
+            "fontVariantCaps": "small-caps",
+            "color": 'text',
+            "cursor": 'pointer',
+            "&:visited": {"color": "text"},
+            "&:hover": {"color": "primary"},
+            "&:active": {
+                "color": "primary",
+            },
         }
-    },
+    }
 }
