@@ -5,7 +5,7 @@ export default {
         "background": "#FCFBF6",
         "primary": "#951F1F",
         "secondary": "#CA424F",
-        "highlight": "#5AC3D9",
+        "highlightText": "#FFFFFF",
         "muted": "#F9F5F0",
         "sideImage":"#3B393C"
     },
@@ -28,22 +28,28 @@ export default {
         "heading": 1.25
     },
     "textStyles": {
+        "body": {
+            "fontFamily": "body",
+            "lineHeight": "body",
+            "fontWeight": "body",
+            "*::selection": {
+                "background": theme => theme.colors.secondary,
+                "color": theme => theme.colors.highlightText
+            }
+        },
         "heading": {
             "fontFamily": "heading",
             "fontWeight": "heading",
-            "lineHeight": "heading"
         }
     },
     "styles": {
         "Container": {
             "p": 3,
-            "maxWidth": 1024
+            "maxWidth": 1024,
         },
         "root": {
-            "fontFamily": "body",
-            "lineHeight": "body",
-            "fontWeight": "body",
-            "fontSize": 1
+            "variant": "textStyles.body",
+            "fontSize": 1,
         },
         "h1": {
             "variant": "textStyles.heading",

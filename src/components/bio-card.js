@@ -29,7 +29,8 @@ export default function BioCard(props) {
 
     // Create a vertical or horizontal card with different styling
     // based on screen size
-    let breakpoint = (useBreakpointIndex() >= 2) * 1;
+    let breakpoint = 1;
+    breakpoint = (useBreakpointIndex() >= 2) * 1;
 
     return (
         <div id={props.id}>
