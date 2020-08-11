@@ -1,6 +1,6 @@
 ---
 type: bio
-title: About Me
+title: (with short hair)
 image: headshot.JPG
 imageDescription: Photo of me with short hair and a beard taken in front of a brick wall.
 ---

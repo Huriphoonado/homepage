@@ -53,19 +53,19 @@ export default {
         },
         "h1": {
             "variant": "textStyles.heading",
-            "fontSize": 6
+            "fontSize": [5,6,6]
         },
         "h2": {
             "variant": "textStyles.heading",
-            "fontSize": 5
+            "fontSize": [4,5,5]
         },
         "h3": {
             "variant": "textStyles.heading",
-            "fontSize": 4
+            "fontSize": [3,4,4]
         },
         "h4": {
             "variant": "textStyles.heading",
-            "fontSize": 3,
+            "fontSize": [2,3,3],
             "fontStyle": "italic"
         },
         "h5": {
