@@ -1,5 +1,5 @@
 /** @jsx jsx */
-import React from "React";
+import React from "react";
 import { useStaticQuery, graphql } from "gatsby";
 import { jsx, Divider, Styled } from 'theme-ui';
 

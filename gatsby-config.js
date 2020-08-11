@@ -10,7 +10,8 @@ module.exports = {
             location:`Upper West Side, NYC`,
             email: `william [dot] payne [at] nyu [dot] edu`
         },
-        githubURL: `https://github.com/Huriphoonado`
+        githubURL: `https://github.com/Huriphoonado`,
+        videoEmbed:`https://www.youtube.com/embed/videoseries?list=PLpjVHkSreo8ddB03qPR0_z67AhQ1EZTLj`
     },
     plugins: [
         {
@@ -43,5 +44,6 @@ module.exports = {
             }
         },
         'gatsby-plugin-theme-ui',
+        `gatsby-plugin-react-helmet`
     ],
 }

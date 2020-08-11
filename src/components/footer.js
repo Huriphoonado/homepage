@@ -26,7 +26,7 @@ export default function Footer(props) {
                 zIndex: 100,
                 bg:"background"
             }}>
-            <NavLink target="_blank" href={data.site.siteMetadata.githubURL} sx={{ variant: 'styles.navlink', p: 2 }}>
+            <NavLink to={data.site.siteMetadata.githubURL} target="_blank" href={data.site.siteMetadata.githubURL} sx={{ variant: 'styles.navlink', p: 2 }}>
                 GitHub
             </NavLink>
             <div sx={{ mx: 'auto' }} />

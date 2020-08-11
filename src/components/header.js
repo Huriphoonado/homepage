@@ -27,7 +27,13 @@ export default function Header(props) {
     }, [scrollerY]);
 
     return (
-        <div sx={{zIndex:1}} css={{position: 'sticky', top: 0}}>
+        <div sx={{zIndex:1}} css={{position: 'sticky', top: 0,
+        ".active":{
+            'color': theme => theme.colors.primary,
+            borderBottom: "1px solid currentColor"
+        },
+        "a:hover":{"textDecoration": "none"}
+        }}>
         <header
         sx={{
             display: 'flex',
@@ -36,21 +42,21 @@ export default function Header(props) {
             p: 20,
             bg:'background'
         }}>
-            <NavScrollLink
+            <NavScrollLink to="#!"
                 sx={{color: "inherit", variant: 'styles.navlink',
-                fontSize: [2, 4, 6], fontFamily:"writing", "fontVariantCaps": "normal", p: 2}}
+                fontSize: [2, 4, 4], fontFamily:"writing", "fontVariantCaps": "normal", p: 2}}
                 onClick={() => scroll.scrollToTop({duration:250})}>{data.site.siteMetadata.title}
             </NavScrollLink>
             <div />
-            {props.urlList.map(u => (
-                <>
-                <NavScrollLink k={u}
+            {props.urlList.map((u, i) => (
+                <div key={u+i}>
+                <NavScrollLink to={u}
                     sx={{color: "inherit", variant: 'styles.navlink', p: 2}}
                     activeClass="active" to={u} spy={true} smooth={true}
                     offset={0} duration={250}>{u}
                 </NavScrollLink>
                 <div />
-                </>
+                </div>
             ))}
         </header>
         <div sx={{p: 0, m: 0, mx: 3, position: "sticky", top: 0, opacity: scrollerY/2,

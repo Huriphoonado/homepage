@@ -2,12 +2,23 @@
 import { useStaticQuery, graphql } from "gatsby";
 import { jsx, Styled, Embed } from 'theme-ui';
 
-const Video = props => {
+const VideoEmbed = props => {
+    const data = useStaticQuery(
+        graphql`
+        query {
+            site {
+                siteMetadata {
+                    videoEmbed
+                }
+            }
+        }
+        `
+    );
     return (
         <div>
         <Styled.h1>Video</Styled.h1>
         <Embed
-            src="https://www.youtube.com/embed/videoseries?list=PLpjVHkSreo8ddB03qPR0_z67AhQ1EZTLj"
+            src={data.site.siteMetadata.videoEmbed}
             frameborder="0"
             color="white"
         />
@@ -15,4 +26,4 @@ const Video = props => {
     )
 }
 
-export default Video;
+export default VideoEmbed;

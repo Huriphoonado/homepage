@@ -6,7 +6,7 @@ export default {
         "primary": "#951F1F",
         "secondary": "#CA424F",
         "highlight": "#5AC3D9",
-        "muted": "#f9f7ec",
+        "muted": "#F9F5F0",
         "sideImage":"#3B393C"
     },
     "fonts": {
@@ -72,6 +72,10 @@ export default {
         },
         "a": {
             "color": "primary",
+            "textDecoration": "none",
+            ":hover": {
+                "textDecoration": "underline"
+            }
         },
         "pre": {
             "variant": "prism",
@@ -139,11 +143,13 @@ export default {
             "fontSize": [1, 2, 2],
             "fontWeight":"body",
             "fontFamily": "heading",
-            "fontVariantCaps": "small-caps",
+            "fontVariantCaps": "all-small-caps",
             "color": 'text',
             "cursor": 'pointer',
             "&:visited": {"color": "text"},
-            "&:hover": {"color": "primary"},
+            "&:hover": {
+                "color": "primary",
+            },
             "&:active": {
                 "color": "primary",
             },
