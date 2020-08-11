@@ -4,7 +4,6 @@ import React from "react";
 
 import { useStaticQuery, graphql } from "gatsby";
 import { jsx, Styled, Text, Box, Grid, Image } from "theme-ui";
-import { useBreakpointIndex } from "@theme-ui/match-media";
 
 export default function BioCard(props) {
     const data = useStaticQuery(
@@ -27,15 +26,10 @@ export default function BioCard(props) {
         `
     );
 
-    // Create a vertical or horizontal card with different styling
-    // based on screen size
-    let breakpoint = (useBreakpointIndex() >= 2) * 1;
-    if (breakpoint == undefined) breakpoint = 0;
-
     return (
         <div>
         {data.allMarkdownRemark.edges.map(({ node }) => {
-            if (breakpoint) return(
+            return(
                 <Box bg='muted' key={node.id}>
                     <Grid gap={2} columns={[ 1, 1, 2 ]}>
                         <div m={0} css={{position: "relative"}}>
@@ -44,17 +38,6 @@ export default function BioCard(props) {
                             <Styled.h1 sx={{m: 0, p: 0, pl: 4, color:"#ffff"}} css={{position: "absolute", bottom:5}}>{node.frontmatter.title}</Styled.h1>
                         </div>
                         <Text sx={{p: 2}}>
-                            <div dangerouslySetInnerHTML={{ __html: node.html }} />
-                        </Text>
-                    </Grid>
-                </Box>
-            )
-            else return(
-                <Box bg='muted' key={node.id}>
-                    <Grid gap={2} columns={[ 1, 1, 2 ]}>
-                        <Image alt={node.frontmatter.imageDescription} sx={{minHeight:"496px", objectFit: "cover"}} src={node.frontmatter.image} />
-                        <Text sx={{p: 2}}>
-                            <Styled.h1>{node.frontmatter.title}</Styled.h1>
                             <div dangerouslySetInnerHTML={{ __html: node.html }} />
                         </Text>
                     </Grid>
