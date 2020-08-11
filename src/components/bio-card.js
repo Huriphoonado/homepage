@@ -29,13 +29,13 @@ export default function BioCard(props) {
 
     // Create a vertical or horizontal card with different styling
     // based on screen size
-    let breakpoint = 1;
-    breakpoint = (useBreakpointIndex() >= 2) * 1;
+    let breakpoint = (useBreakpointIndex() >= 2) * 1;
+    if (breakpoint == undefined) breakpoint = 0;
 
     return (
-        <div id={props.id}>
+        <div>
         {data.allMarkdownRemark.edges.map(({ node }) => {
-            const card1 = (
+            if (breakpoint) return(
                 <Box bg='muted' key={node.id}>
                     <Grid gap={2} columns={[ 1, 1, 2 ]}>
                         <div m={0} css={{position: "relative"}}>
@@ -49,8 +49,7 @@ export default function BioCard(props) {
                     </Grid>
                 </Box>
             )
-
-            const card2 = (
+            else return(
                 <Box bg='muted' key={node.id}>
                     <Grid gap={2} columns={[ 1, 1, 2 ]}>
                         <Image alt={node.frontmatter.imageDescription} sx={{minHeight:"496px", objectFit: "cover"}} src={node.frontmatter.image} />
@@ -61,8 +60,6 @@ export default function BioCard(props) {
                     </Grid>
                 </Box>
             )
-
-        return ([card1, card2][breakpoint])
         })}
         </div>
     )
