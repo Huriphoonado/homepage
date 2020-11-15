@@ -1,0 +1,69 @@
+<ImageLayout>
+<div id="Top" sx={{pb: 6}}><TopMatter /></div>
+
+<div id={URLS[0]} sx={{py:6, m:0}}><BioCard /></div>
+<div id={URLS[1]} sx={{py:6, m:0}}><Projects /></div>
+<div id={URLS[2]} sx={{py:6, m:0}}><Publications /></div>
+<div id={URLS[3]} sx={{py:6, m:0}}><VideoEmbed /></div>
+<div id={URLS[4]} sx={{py:6, m:0}}><AudioEmbed /></div>
+
+Clayton question
+    Anthony Hornoff
+    Jason Freeman
+    Ge Wang
+    Anne Marie Piper
+    Rebecca Fiebrink
+
+Next Three Papers
+    Music Transcription Process
+    Two-year Timeline
+        Publication dates (SigSCSE)
+        Artifacts
+
+Steps
+    Coming up with a running list
+    Figure out advisor situation (Luke/Alex)
+    Nancy Hall - (Luke, Amy, someone external to NYU)
+    More questions - ratios, how many external people
+
+</ImageLayout>
+
+<Grid
+        gap={2}
+        columns={[ 1, "2fr 1fr" ]}
+        height="100vh"
+        minHeight="100vh">
+            <box sx={{p:[4, 5], bottom: 0}}>
+                <div sx={{mb: 5}}>
+                    <Styled.h1 sx={{fontSize:[8, 9, 10], fontWeight:"display", mb:0}}>{data.site.siteMetadata.title}</Styled.h1>
+                    <Styled.h2 sx={{mt:0}}>{data.site.siteMetadata.description}</Styled.h2>
+                </div>
+                <div sx={{ fontFamily:"heading"}}>
+                    <div sx={{m: 0, my: 3, '& > p': { m:0 }}}>
+                        <Styled.h5 sx={{fontWeight:"body", mb:0}}>INTERESTS</Styled.h5>
+                        <p>{data.site.siteMetadata.interests.professional.join(` • `)}</p>
+                        <p>{data.site.siteMetadata.interests.personal.join(` • `)}</p>
+                    </div>
+                    <Divider sx={{borderColor: "text", width: "32px"}} />
+                    <div sx={{my: 3, '& > p': { m:0 }}}>
+                        <Styled.h5 sx={{fontWeight:"body", m:0}}>REACH ME</Styled.h5>
+                        <p>{data.site.siteMetadata.info.email}</p>
+                        <p>{data.site.siteMetadata.info.location}</p>
+                    </div>
+                </div>
+            </box>
+            <box></box>
+        </Grid>
+
+        "minWidth":["0px", "1200px"],
+                        "width":["100%", "1200px"],
+
+<div sx={{m:0, p:0, display: 'flex', justifyContent: 'center',}}>
+    <NavScrollLink to="#!"
+        sx={{color: "inherit",
+        fontFamily:"writing",
+        fontSize: [5, 6],
+        variant: 'styles.navlink', }}
+        onClick={() => scroll.scrollToTop({duration:250})}>wp
+    </NavScrollLink>
+</div>
