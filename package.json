@@ -22,6 +22,7 @@
     "gatsby-plugin-web-font-loader": "^1.0.4",
     "gatsby-remark-external-links": "0.0.4",
     "gatsby-source-filesystem": "^2.3.23",
+    "gatsby-transformer-json": "^2.4.15",
     "gatsby-transformer-remark": "^2.8.27",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",

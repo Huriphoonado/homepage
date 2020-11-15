@@ -2,21 +2,18 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import { useStaticQuery, graphql } from "gatsby";
-import { jsx } from 'theme-ui';
+import { jsx, Container, Divider } from 'theme-ui';
 
 import Header from './header.js';
-import TopMatter from './top-matter.js';
+import Top from './top.js';
 import BioCard from './bio-card.js';
 import Projects from './projects.js';
 import Publications from './publications.js';
-import VideoEmbed from './video.js';
-import AudioEmbed from './audio.js';
+import MediaEmbed from './media.js';
 import Footer from './footer.js';
 
-import ImageLayout from './image-layout.js';
-
 export default function Layout(props) {
-    const URLS = ["About", "Projects", "Publications", "Video", "Audio"];
+    const URLS = ["About", "Projects", "Publications", "Media"];
 
     const data = useStaticQuery(
         graphql`
@@ -44,16 +41,18 @@ export default function Layout(props) {
             <title>{data.site.siteMetadata.title}</title>
         </Helmet>
         <Header urlList={URLS} />
-        <ImageLayout>
-        <div id="Top" sx={{pb: 6}}><TopMatter /></div>
+        <Top />
 
-        <div id={URLS[0]} sx={{py:6, m:0}}><BioCard /></div>
-        <div id={URLS[1]} sx={{py:6, m:0}}><Projects /></div>
-        <div id={URLS[2]} sx={{py:6, m:0}}><Publications /></div>
-        <div id={URLS[3]} sx={{py:6, m:0}}><VideoEmbed /></div>
-        <div id={URLS[4]} sx={{py:6, m:0}}><AudioEmbed /></div>
+        <Container sx={{p:[4, 5, 6]}}>
+        <div id={URLS[0]} sx={{my:0, py:5}}><BioCard /></div>
+        <Divider />
+        <div id={URLS[1]} sx={{my:0, py:5}}><Projects /></div>
+        <Divider />
+        <div id={URLS[2]} sx={{my:0, py:5}}><Publications /></div>
+        <Divider />
+        <div id={URLS[3]} sx={{my:0, pt:5}}><MediaEmbed /></div>
+        </Container>
 
-        </ImageLayout>
         <Footer />
     </div>)
 }

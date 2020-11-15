@@ -6,13 +6,16 @@ export default {
         "primary": "#951F1F",
         "secondary": "#CA424F",
         "highlightText": "#FFFFFF",
-        "muted": "#F9F5F0",
-        "sideImage":"#3B393C"
+        "old": "#F9F5F0",
+        "sideImage":"#3B393C",
+        "muted": "#f2e9e4",
+        "lessMuted": "#ac7253"
     },
     "fonts": {
-        "body": "apolline, Crimson Pro, system-ui, sans-serif",
+        "body": "brandon-grotesque, system-ui, sans-serif",
         "heading": "brandon-grotesque, system-ui, sans-serif",
         "monospace": "Menlo, monospace",
+        "formal": "apolline, Crimson Pro, system-ui, sans-serif",
         "writing": "professor, Liu Jian Mao Cao, system-ui, sans-serif"
     },
     "fontSizes": [
@@ -49,19 +52,21 @@ export default {
         },
         "root": {
             "variant": "textStyles.body",
-            "fontSize": 1,
+            "fontSize": [1, 2],
         },
         "h1": {
             "variant": "textStyles.heading",
-            "fontSize": [5,6,6]
+            "fontSize": [5,6,7]
         },
         "h2": {
             "variant": "textStyles.heading",
-            "fontSize": [4,5,5]
+            "fontSize": [4,5,6]
         },
         "h3": {
             "variant": "textStyles.heading",
-            "fontSize": [3,4,4]
+            "fontSize": [3,4,4],
+            "fontWeight": 400,
+            "fontStyle": "italic"
         },
         "h4": {
             "variant": "textStyles.heading",
@@ -74,13 +79,17 @@ export default {
         },
         "h6": {
             "variant": "textStyles.heading",
-            "fontSize": 1
+            "fontFamily": "heading",
+            "fontVariantCaps": "all-small-caps",
+            "fontSize": 1,
+            "fontWeight": 900
         },
         "a": {
-            "color": "primary",
-            "textDecoration": "none",
+            "color": "text",
+            "textDecoration": "underline",
             ":hover": {
-                "textDecoration": "underline"
+                "textDecoration": "underline",
+                "color": "primary",
             }
         },
         "pre": {
@@ -138,11 +147,33 @@ export default {
     },
     "cards": {
         "primary": {
-            "borderRadius": 4,
+            "borderRadius": 6,
             "border": '1px solid',
-            "borderColor": 'primary',
+            "borderColor": 'muted',
             "bg": 'muted'
         },
+    },
+    "buttons": {
+        "primary": {
+            "fontSize": 1,
+            "bg": "muted",
+            "color":"primary",
+            "border": '2px solid',
+            "borderColor": 'primary',
+            "borderRadius": 12,
+            "cursor": "pointer",
+            "&:hover": {
+                "borderColor": 'primary',
+                "bg": "primary",
+                "color": "background",
+            },
+            "&:focus": {
+                "outline": "none",
+                "borderColor": 'primary',
+                "bg": "primary",
+                "color": "background",
+            }
+        }
     },
     "links": {
         "nav": {
@@ -152,6 +183,7 @@ export default {
             "fontVariantCaps": "all-small-caps",
             "color": 'text',
             "cursor": 'pointer',
+            "textDecoration": "none",
             "&:visited": {"color": "text"},
             "&:hover": {
                 "color": "primary",

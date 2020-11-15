@@ -3,7 +3,7 @@
 import React from "react";
 
 import { useStaticQuery, graphql } from "gatsby";
-import { jsx, Styled, Text, Box, Grid, Image } from "theme-ui";
+import { jsx, Styled, Text, Card, Box, Grid, Image } from "theme-ui";
 
 export default function BioCard(props) {
     const data = useStaticQuery(
@@ -28,22 +28,37 @@ export default function BioCard(props) {
 
     return (
         <div>
-        <Styled.h1>About</Styled.h1>
+
         <div>
         {data.allMarkdownRemark.edges.map(({ node }) => {
             return(
-                <Box bg='muted' key={node.id}>
-                    <Grid gap={2} columns={[ 1, 1, 2 ]}>
-                        <div m={0} css={{position: "relative"}}>
-                            <Image alt={node.frontmatter.imageDescription} sx={{m: 0, p: 0, minHeight:"320px", objectFit:"cover"}} src={node.frontmatter.image} />
-                            <div sx={{m: 0, p: 0}} css={{position: "absolute",  top: -6, left: 0, width: "100%", height: "100%", boxShadow: "inset 0px -70px 30px -30px rgba(0,0,0,0.7)"}} />
-                            <Styled.h2 sx={{m: 0, p: 0, pl: [2,4], color:"#ffff"}} css={{position: "absolute", bottom:5}}>{node.frontmatter.title}</Styled.h2>
-                        </div>
-                        <Text sx={{p: 2}}>
-                            <div dangerouslySetInnerHTML={{ __html: node.html }} />
-                        </Text>
-                    </Grid>
-                </Box>
+                <Grid key={node.id} gap={[0, 3]} columns={[ 1, 1, '1fr 2fr' ]}>
+                    <div sx={{position: "relative",}}>
+                        <Image alt={node.frontmatter.imageDescription} sx={{
+                            display:"block",
+                            position:["relative", "relative", "absolute"],
+                            top: ["0%", "0%", "50%"],
+                            transform: ["translate(-50%, 0%)", "translate(-50%, 0%)", "translate(-50%, -50%)"],
+                            left:"50%",
+                            marginRight:"-50%",
+                            width:["100%", "256px"],
+                            objectFit:"cover"
+                        }} src={node.frontmatter.image} />
+                    </div>
+                    <Card p={[2,4]}>
+                        <Styled.h1>About Willie</Styled.h1>
+                        <div
+                        sx={{
+                            a: theme => theme.styles.a,
+                            h1: theme => theme.styles.h1,
+                            h2: theme => theme.styles.h2,
+                            h3: theme => theme.styles.h3,
+                            h4: theme => theme.styles.h4,
+                            h5: theme => theme.styles.h5,
+                            h6: theme => theme.styles.h6,
+                        }} dangerouslySetInnerHTML={{ __html: node.html }} />
+                    </Card>
+                </Grid>
             )
         })}
         </div>

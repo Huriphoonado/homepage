@@ -3,14 +3,14 @@ type: publications
 title: Recent Publications
 ---
 #### Accessible Music Technology
-**Payne, W. C.**, Xu, A., Ahmed F., Ye, L., & Hurst, A., (2020, October). How Blind and Visually Impaired Composers, Producers, and Songwriters Leverage and Adapt Music Technology. In *The 22nd International ACM SIGACCESS Conference on Computers and Accessibility.* ACM.
+[**Payne, W. C.**, Xu, A., Ahmed F., Ye, L., & Hurst, A., (2020, October). How Blind and Visually Impaired Composers, Producers, and Songwriters Leverage and Adapt Music Technology. In *The 22nd International ACM SIGACCESS Conference on Computers and Accessibility.* ACM.](https://doi.org/10.1145/3373625.3417002)
 
-**Payne, W. C.**, Paradiso, A., & Kane, S. K. (2020, July). Cyclops: Designing an Eye-Controlled Instrument for Accessibility and Flexible Use. In *New Interfaces for Musical Expression.*
+[**Payne, W. C.**, Paradiso, A., & Kane, S. K. (2020, July). Cyclops: Designing an Eye-Controlled Instrument for Accessibility and Flexible Use. In *New Interfaces for Musical Expression,* Birmingham City University, pp. 576–580.](https://www.nime.org/proceedings/2020/nime2020_paper112.pdf)
 
 [**Payne, W. C.**, Xu, A., Hurst, A., & Ruthmann, S. A. (2019, October). Non-Visual Beats: Redesigning the Groove Pizza. In *The 21st International ACM SIGACCESS Conference on Computers and Accessibility* (pp. 651-654). ACM.](https://doi.org/10.1145/3308561.3354590)
 
 #### Computing Education, Music, and Dance
-[**Payne, W. C.**, & Ruthmann, S. A. (2019, May). Music Making in Scratch: High Floors, Low Ceilings, and Narrow Walls? *The Journal of Interactive Technology and Pedagogy*, (15).](jitp.commons.gc.cuny.edu/music-making-in-scratch-high-floors-low-ceilings-and-narrow-walls/)
+[**Payne, W. C.**, & Ruthmann, S. A. (2019, May). Music Making in Scratch: High Floors, Low Ceilings, and Narrow Walls? *The Journal of Interactive Technology and Pedagogy*, (15).](https://jitp.commons.gc.cuny.edu/music-making-in-scratch-high-floors-low-ceilings-and-narrow-walls/)
 
 [Bergner, Y., Mund, S., Chen, O., & **Payne, W. C.** (2020). Leveraging interest-driven embodied practices to build quantitative literacies: An exploratory case study using motion and audio capture from dance. In *The Journal of Educational Technology Research and Development.*](https://doi.org/10.1007/s11423-020-09804-2)
 

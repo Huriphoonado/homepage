@@ -32,7 +32,7 @@ const Publications = props => {
                 h4: theme => theme.styles.h4,
                 h5: theme => theme.styles.h5,
                 h6: theme => theme.styles.h6,
-                p: {fontSize:0}}}
+                p: {fontSize:0, fontFamily:"formal"}}}
                 dangerouslySetInnerHTML={{ __html: node.html }} />
         </div>
     );

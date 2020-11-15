@@ -1,5 +1,5 @@
 ---
-type: project
+type: od-project
 title: Non-Visual Beats
 ---
 I design musical interactions and interfaces that are accessible to a wide range of users with diverse abilities. I am especially interested in making music computing more accessible in collaboration with people with no vision or low vision. My team developed a screen-reader friendly prototype of a circular drum-machine [[video](https://youtu.be/mXTWnIrAsNQ) | [try](https://nyumusedlab.github.io/Accessible-Groove-Pizza/)].

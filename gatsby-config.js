@@ -21,6 +21,7 @@ module.exports = {
                 path: `${__dirname}/src/`,
             },
         },
+        `gatsby-transformer-json`,
         {
             resolve: `gatsby-transformer-remark`,
             options: {
