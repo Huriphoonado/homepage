@@ -38,11 +38,12 @@ export default function BioCard(props) {
                             display:"block",
                             position:["relative", "relative", "absolute"],
                             top: ["0%", "0%", "50%"],
-                            transform: ["translate(-50%, 0%)", "translate(-50%, 0%)", "translate(-50%, -50%)"],
+                            transform: ["translate(-50%, 2%)", "translate(-50%, 0%)", "translate(-50%, -50%)"],
                             left:"50%",
                             marginRight:"-50%",
                             width:["100%", "256px"],
-                            objectFit:"cover"
+                            objectFit:"cover",
+                            borderRadius: ["6px 6px 0px 0px", "6px"],
                         }} src={node.frontmatter.image} />
                     </div>
                     <Card p={[2,4]}>

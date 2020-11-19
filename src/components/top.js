@@ -40,6 +40,7 @@ const Top = props => {
             src="top.svg" />
         <Container sx={{
             "minHeight":["0px", "600px"],
+            "height":["100%", "100vh"],
             p:[4,5,6], // 7 if the breakpoint gets right
 
         }}>

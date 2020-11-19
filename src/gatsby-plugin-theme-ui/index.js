@@ -1,5 +1,5 @@
 export default {
-    "breakpoints": ["40em", "60em", "68em"],
+    "breakpoints": ["40em", "60em", "64em"],
     "colors": {
         "text": "#3B393C",
         "background": "#FCFBF6",
@@ -15,7 +15,7 @@ export default {
         "body": "brandon-grotesque, system-ui, sans-serif",
         "heading": "brandon-grotesque, system-ui, sans-serif",
         "monospace": "Menlo, monospace",
-        "formal": "apolline, Crimson Pro, system-ui, sans-serif",
+        "formal": "livory, Crimson Pro, system-ui, serif",
         "writing": "professor, Liu Jian Mao Cao, system-ui, sans-serif"
     },
     "fontSizes": [
@@ -156,6 +156,7 @@ export default {
     "buttons": {
         "primary": {
             "fontSize": 1,
+            "fontWeight": 300,
             "bg": "muted",
             "color":"primary",
             "border": '2px solid',

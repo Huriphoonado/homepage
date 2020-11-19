@@ -39,11 +39,9 @@ const Projects = props => {
                     title = <Styled.h3 as="h2" sx={{mb:0}}>{node.title}</Styled.h3>;
                     subDescription = <Styled.h6 as="h3" sx={{mt:0, mb:4}}>{node.year} <span sx={{color:"primary"}}>/</span> {node.tags.join(", ")}</Styled.h6>
                     description = <Text>{node.description}</Text>;
-
-                    console.log(node.collaborators);
+                    
                     if (node.collaborators.length) {
                         collaborators = <>
-                        <Divider sx={{ "borderColor": "primary" }} />
                         <Styled.h6 as="h3" sx={{mb:2}}>Collaborators</Styled.h6>
                         <Text sx={{fontSize:1}}>
                         {node.collaborators.map(
@@ -60,7 +58,6 @@ const Projects = props => {
 
                     if (node.links.length) {
                         links = <>
-                        <Divider sx={{ "borderColor": "primary" }} />
                         <Styled.h6 as="h3" sx={{mb:2}}>Links</Styled.h6>
                         {node.links.map(
                             l => <Button onClick={e=>{window.open(l[1],'_blank'); return false;}}
