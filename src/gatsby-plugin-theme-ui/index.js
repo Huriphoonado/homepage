@@ -1,5 +1,5 @@
 export default {
-    "breakpoints": ["40em", "60em", "64em"],
+    "breakpoints": ["40em", "62em", "64em"],
     "colors": {
         "text": "#3B393C",
         "background": "#FCFBF6",

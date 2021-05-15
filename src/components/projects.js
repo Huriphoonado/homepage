@@ -39,7 +39,7 @@ const Projects = props => {
                     title = <Styled.h3 as="h2" sx={{mb:0}}>{node.title}</Styled.h3>;
                     subDescription = <Styled.h6 as="h3" sx={{mt:0, mb:4}}>{node.year} <span sx={{color:"primary"}}>/</span> {node.tags.join(", ")}</Styled.h6>
                     description = <Text>{node.description}</Text>;
-                    
+
                     if (node.collaborators.length) {
                         collaborators = <>
                         <Styled.h6 as="h3" sx={{mb:2}}>Collaborators</Styled.h6>

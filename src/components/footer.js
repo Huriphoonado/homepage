@@ -30,7 +30,7 @@ export default function Footer(props) {
                 GitHub
             </NavLink>
             <div sx={{ mx: 'auto' }} />
-            <div sx={{ p: 2, fontSize: 3, fontFamily:'writing' }}>{data.site.siteMetadata.title} - 2020</div>
+            <div sx={{ p: 2, fontSize: 3, fontFamily:'writing' }}>{data.site.siteMetadata.title} - 2021</div>
         </footer>
     )
 }

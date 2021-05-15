@@ -1,7 +1,7 @@
 {
   "name": "willie-webpage",
   "private": true,
-  "description": "Willie's website.",
+  "description": "Willie Payne's personal website.",
   "version": "0.1.0",
   "license": "0BSD",
   "scripts": {
@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "@theme-ui/match-media": "^0.3.1",
-    "gatsby": "^2.23.12",
+    "gatsby": "^2.32.13",
     "gatsby-plugin-react-helmet": "^3.3.10",
     "gatsby-plugin-theme-ui": "^0.3.0",
     "gatsby-plugin-web-font-loader": "^1.0.4",

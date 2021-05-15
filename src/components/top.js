@@ -32,7 +32,7 @@ const Top = props => {
                 "fill":"sideImage",
                 "stroke":"sideImage",
                 "position": ["absolute", "absolute"],
-                "right":[0, "min(0px, calc(100vw - 1050px))"],
+                "right":[0, "min(0px, calc(90vw - 1050px))"],
                 "minHeight":["0px", "600px"],
                 "height":["100%", "100vh"],
                 "visibility":["hidden", "visible"],
@@ -46,7 +46,7 @@ const Top = props => {
         }}>
             <div sx={{
                 "bottom":0,
-                "width":["100%", "60%"]
+                "width":["100%", "60%", "50%"]
             }}>
                 <div sx={{mb: 5}}>
                     <Styled.h1 sx={{fontSize:[8, 9, 10], fontWeight:"display", mb:0}}>{data.site.siteMetadata.title}</Styled.h1>
