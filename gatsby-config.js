@@ -3,7 +3,7 @@ module.exports = {
         title: `Willie Payne`,
         description:`PhD Candidate in Music Technology at NYU`,
         interests: {
-            professional: [`Creative Coding`, `CS Education`, `Accessibility`],
+            professional: [`Creative Computing`, `CS Education`, `Accessibility`],
             personal: [`Comics`, `Coffee`, `Running`, `Rock`, `Literary Fiction`]
         },
         info: {
