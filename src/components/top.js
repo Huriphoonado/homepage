@@ -32,7 +32,7 @@ const Top = props => {
                 "fill":"sideImage",
                 "stroke":"sideImage",
                 "position": ["absolute", "absolute"],
-                "right":[0, "min(0px, calc(90vw - 1050px))"],
+                "right":[0, "min(0px, calc(90vw - 150vh))"],
                 "minHeight":["0px", "600px"],
                 "height":["100%", "100vh"],
                 "visibility":["hidden", "visible"],

@@ -44,6 +44,7 @@ export default function Header(props) {
                     <NavScrollLink to="#!"
                         sx={{color: "inherit",
                             position:"absolute",
+                            display: ["none", "block"],
                             fontFamily:"writing",
                             fontSize: [8, 8],
                             right:"12px",
