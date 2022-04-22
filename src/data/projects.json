@@ -1,5 +1,23 @@
 [
     {
+        "title": "SoundCells",
+        "year": "2022",
+        "tags": [
+            "accessible music technology"
+        ],
+        "collaborators": [
+            ["MusEDLab VIP", "https://engineering.nyu.edu/research-innovation/student-research/vertically-integrated-projects/vip-teams/music-experience-design-lab"],
+            ["Amy Hurst", "http://amyhurst.com"],
+            ["R. Luke DuBois", "https://www.lukedubois.com"]
+        ],
+        "description": "Text-based music notation software for writing braille and print scores.",
+        "links": [
+            ["Use", "https://soundcells.herokuapp.com/"],
+            ["Video", "https://youtu.be/lS2zzY1MSZw"],
+            ["Code", "https://github.com/Huriphoonado/soundcells"]
+        ]
+    },
+    {
         "title": "danceON",
         "year": "2020",
         "tags": [

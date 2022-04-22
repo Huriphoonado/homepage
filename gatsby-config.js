@@ -3,13 +3,18 @@ module.exports = {
         title: `Willie Payne`,
         description:`PhD Candidate in Music Technology at NYU`,
         interests: {
-            professional: [`Creative Computing`, `CS Education`, `Accessibility`],
-            personal: [`Comics`, `Coffee`, `Running`, `Rock`, `Literary Fiction`]
+            professional: [`Creative Expression`, `Accessibility`, `CS Ed`],
+            personal: [`Comics`, `Coffee`, `Running`, `New Music`, `New Fiction`]
         },
         info: {
             location:`Upper West Side, NYC`,
             email: `william [dot] payne [at] nyu [dot] edu`
         },
+        otherSites: [
+            {name: `github`, url: `https://github.com/Huriphoonado`},
+            {name: `Ability Project`, url: `https://wp.nyu.edu/ability/team/`},
+            {name: `Music + Audio Research Lab`, url: `https://steinhardt.nyu.edu/marl/about/team`},
+        ],
         githubURL: `https://github.com/Huriphoonado`,
         videoEmbed:`https://www.youtube.com/embed/videoseries?list=PLpjVHkSreo8ddB03qPR0_z67AhQ1EZTLj`
     },

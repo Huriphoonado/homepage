@@ -9,7 +9,10 @@ export default function Footer(props) {
             site {
                 siteMetadata {
                     title
-                    githubURL
+                    otherSites {
+                        name
+                        url
+                    }
                 }
             }
         }
@@ -26,9 +29,14 @@ export default function Footer(props) {
                 zIndex: 100,
                 bg:"background"
             }}>
-            <NavLink to={data.site.siteMetadata.githubURL} target="_blank" href={data.site.siteMetadata.githubURL} sx={{ variant: 'styles.navlink', p: 2 }}>
-                GitHub
-            </NavLink>
+             {data.site.siteMetadata.otherSites.map((node, idx) => {
+                 let keyName = 'externalSite' + idx;
+                 return (
+                     <NavLink key={keyName} to={node.url} target="_blank" href={node.url} sx={{ variant: 'styles.navlink', p: 2 }}>
+                         {node.name}
+                     </NavLink>
+                 )
+             })}
             <div sx={{ mx: 'auto' }} />
             <div sx={{ p: 2, fontSize: 3, fontFamily:'writing' }}>{data.site.siteMetadata.title} - 2022</div>
         </footer>
