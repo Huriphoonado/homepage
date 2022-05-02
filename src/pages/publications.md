@@ -7,7 +7,7 @@ Mentorship is important to me. Undergraduate students who enrolled in [Verticall
 –––
 
 #### Conference Proceedings
-[**William Payne**, Fabiha Ahmed†, Michael Gardell†, R. Luke DuBois, and Amy Hurst. 2022. Soundcells: designing a browser-based music technology for braille and print notation. In *19th Web for All Conference* (W4A ’22) Article 11. Association for Computing Machinery, Lyon, France, 12 pages.](https://doi.org/10.1145/3493612.3520464)
+[**William Payne**, Fabiha Ahmed†, Michael Gardell†, R. Luke DuBois, and Amy Hurst. 2022. Soundcells: designing a browser-based music technology for braille and print notation. In *19th Web for All Conference* (W4A ’22) Article 11. Best Technical Paper. Association for Computing Machinery, Lyon, France, 12 pages.](https://doi.org/10.1145/3493612.3520462)
 
 [**William Payne**, Yoav Bergner, Mary Etta West, Carlie Charp, R. Benjamin Benjamin Shapiro, Danielle Albers Szafir, Edd V. Taylor, and Kayla DesPortes. 2021. danceON: culturally responsive creative computing. In *Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems* Article 96. Best Paper Honorable Mention. Association for Computing Machinery, New York, NY, USA, (May 2021), 16 pages.](https://doi.org/10.1145/3411764.3445149)
 
