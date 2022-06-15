@@ -16,7 +16,7 @@ module.exports = {
             {name: `Music + Audio Research Lab`, url: `https://steinhardt.nyu.edu/marl/about/team`},
         ],
         githubURL: `https://github.com/Huriphoonado`,
-        videoEmbed:`https://www.youtube.com/embed/videoseries?list=PLpjVHkSreo8ddB03qPR0_z67AhQ1EZTLj`
+        videoEmbed:`https://www.youtube.com/embed/videoseries?list=PLpjVHkSreo8c_bC4di4vdy_NdX_nEM8sT`
     },
     plugins: [
         {

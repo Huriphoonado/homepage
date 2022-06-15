@@ -1,11 +1,11 @@
 import React from "react";
 import { ScrollLink } from "react-scroll";
-import { NavLink, Styled } from "theme-ui";
+import { NavLink, Themed } from "theme-ui";
 
 const NewLink = props => (
-    <Styled.a as={NavLink} {...props}>
+    <Themed.a as={NavLink} {...props}>
       {props.children}
-    </Styled.a>
+    </Themed.a>
 );
 
 

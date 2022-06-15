@@ -1,0 +1,138 @@
+[
+    {
+        "title": "AI + Dance: Co-Designing Culturally Sustaining Curricular Resources for AI and Ethics Education Through Artistic Computing",
+        "authors": ["Francisco Enrique Vicente Castro", "Kayla DesPortes", "William Payne", "Yoav Bergner", "Kathleen McDermott"],
+        "year": "2022",
+        "venue": "ACM Conference on International Computing Education Research (ICER)",
+        "url": "https://icer2022.acm.org",
+        "note": "",
+        "type": "Posters and Demos"
+    },
+    {
+        "title": "danceON and softWEAR: Education-Level Creative Coding and Programmable Wearables",
+        "authors": ["Yoav Bergner", "William Payne", "Kayla DesPortes", "Kathleen McDermott"],
+        "year": "2022",
+        "venue": "Movement and Computing (MOCO)",
+        "url": "https://moco22.movementcomputing.org/program.html",
+        "note": "",
+        "type": "Posters and Demos"
+    },
+    {
+        "title": "'Go[Ing] Hard...as a Woman of Color': A Case Study Examining Identity Work within a Performative Dance and Computing Learning Environment",
+        "authors": ["Kayla DesPortes", "Kathleen McDermott", "Yoav Bergner", "William Payne"],
+        "year": "2022",
+        "venue": "Transactions on Computing Education (TOCE)",
+        "url": "https://doi.org/10.1145/3531000",
+        "note": "",
+        "type": "Journal Articles"
+    },
+    {
+        "title": "SoundCells: Designing a Browser-Based Music Technology for Braille and Print Notation",
+        "authors": ["William Payne", "Fabiha Ahmed†", "Michael Gardell†", "R. Luke DuBois", "Amy Hurst"],
+        "year": "2022",
+        "venue": "Web4All (W4A)",
+        "url": "https://doi.org/10.1145/3493612.3520462",
+        "note": "Best Technical Paper",
+        "type": "Conference Proceedings"
+    },
+    {
+        "title": "Sounds and (Braille) Cells: Co-Designing Music Technology with Blind and Visually Impaired Musicians",
+        "authors": ["William Payne"],
+        "year": "2022",
+        "venue": "Web4All (W4A)",
+        "url": "https://doi.org/10.1145/3493612.3520464",
+        "note": "",
+        "type": "Doctoral Consortia"
+    },
+    {
+        "title": "Sound Cells: Rendering Visual and Braille Music in the Browser",
+        "authors": ["Fabiha Ahmed†", "Dennis Kuzminer†", "Michael Zachor†", "Rachel Josepho†", "William Payne", "Amy Hurst"],
+        "year": "2021",
+        "venue": "ACM SIGACCESS Conference on Computers and Accessibility (ASSETS)",
+        "url": "https://doi.org/10.1145/3441852.3476555",
+        "note": "",
+        "type": "Posters and Demos"
+    },
+    {
+        "title": "ToneBlocks: Block-Based Musical Programming",
+        "authors": ["Michael Quigley‡", "William Payne"],
+        "year": "2021",
+        "venue": "New Interfaces for Musical Expression (NIME)",
+        "url": "https://nime.pubpub.org/pub/qn6lqnzx",
+        "note": "",
+        "type": "Posters and Demos"
+    },
+    {
+        "title": "danceON: Culturally Responsive Creative Computing",
+        "authors": ["William Payne", "Yoav Bergner", "Mary Etta West", "Carlie Charp", "R. Benjamin Shapiro", "Danielle Szafir", "Edd V. Taylor", "Kayla DesPortes"],
+        "year": "2021",
+        "venue": "Computer Human Interaction (CHI)",
+        "url": "https://doi.org/10.1145/3411764.3445149",
+        "note": "Best Paper Honorable Mention",
+        "type": "Conference Proceedings"
+    },
+    {
+        "title": "Cyclops: Designing an Eye-Controlled Instrument for Accessibility and Flexible Use",
+        "authors": ["William Payne", "Ann Paradiso", "Shaun Kane"],
+        "year": "2020",
+        "venue": "New Interfaces for Musical Expression (NIME)",
+        "url": "https://www.nime.org/proceedings/2020/ nime2020_paper112.pdf",
+        "note": "",
+        "type": "Conference Proceedings"
+    },
+    {
+        "title": "How Blind and Visually Impaired Composers, Producers, and Songwriters Leverage and Adapt Music Technology",
+        "authors": ["William Payne", "Alex Yixuan Xu†", "Fabiha Ahmed†", "Lisa Ye†", "Amy Hurst"],
+        "year": "2020",
+        "venue": "ACM SIGACCESS Conference on Computers and Accessibility (ASSETS)",
+        "url": "https://doi.org/10.1145/3373625.3417002",
+        "note": "",
+        "type": "Conference Proceedings"
+    },
+    {
+        "title": "Non-Visual Composing and Coding",
+        "authors": ["William Payne"],
+        "year": "2022",
+        "venue": "ACM SIGACCESS Conference on Computers and Accessibility (ASSETS)",
+        "url": "https://doi.org/10.1145/3458055.3458059",
+        "note": "",
+        "type": "Doctoral Consortia"
+    },
+    {
+        "title": "Leveraging Interest-Driven Embodied Practices to Build Quantitative Literacies: A Case Study Using Motion and Audio Capture from Dance",
+        "authors": ["Yoav Bergner", "Shiri Mund", "Ofer Chen", "William Payne"],
+        "year": "2020",
+        "venue": "Educational Technology, Research, and Development",
+        "url": "https://doi.org/10.1007/s11423-020-09804-2",
+        "note": "",
+        "type": "Journal Articles"
+    },
+    {
+        "title": "Music Making in Scratch: High Floors, Low Ceilings, and Narrow Walls?",
+        "authors": ["William Payne", "S. Alex Ruthmann"],
+        "year": "2019",
+        "venue": "Interactive Technology and Pedagogy",
+        "url": "https://jitp.commons.gc.cuny.edu/music-making-in-scratch-high-floors-low-ceilings-and-narrow-walls/",
+        "note": "",
+        "type": "Journal Articles"
+    },
+    {
+        "title": "Non-Visual Beats: Redesigning the Groove Pizza",
+        "authors": ["William Payne", "Alex Yixuan Xu†", "Amy Hurst", "S. Alex Ruthmann"],
+        "year": "2019",
+        "venue": "ACM SIGACCESS Conference on Computers and Accessibility (ASSETS)",
+        "url": "https://doi.org/10.1145/3308561.3354590",
+        "note": "",
+        "type": "Posters and Demos"
+    },
+    {
+        "title": "First Steps in Dance Data Science: Educational Design",
+        "authors": ["Yoav Bergner", "Shiri Mund", "Ofer Chen", "William Payne"],
+        "year": "2019",
+        "venue": "Movement and Computing (MOCO)",
+        "url": "https://doi.org/10.1145/3347122.3347137",
+        "note": "",
+        "type": "Conference Proceedings"
+    }
+
+]

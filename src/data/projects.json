@@ -5,16 +5,18 @@
         "tags": [
             "accessible music technology"
         ],
+        "video": "https://www.youtube.com/embed/lS2zzY1MSZw",
         "collaborators": [
             ["MusEDLab VIP", "https://engineering.nyu.edu/research-innovation/student-research/vertically-integrated-projects/vip-teams/music-experience-design-lab"],
+            ["FMDG School", "https://fmdgmusicschool.org"],
             ["Amy Hurst", "http://amyhurst.com"],
             ["R. Luke DuBois", "https://www.lukedubois.com"]
         ],
         "description": "Text-based music notation software for writing braille and print scores.",
         "links": [
-            ["Use", "https://soundcells.herokuapp.com/"],
-            ["Video", "https://youtu.be/lS2zzY1MSZw"],
-            ["Code", "https://github.com/Huriphoonado/soundcells"]
+            ["App", "https://soundcells.herokuapp.com/"],
+            ["Code", "https://github.com/Huriphoonado/soundcells"],
+            ["W4A Paper", "https://doi.org/10.1145/3493612.3520462"]
         ]
     },
     {
@@ -25,16 +27,19 @@
             "creative coding",
             "cs ed"
         ],
+        "video": "https://www.youtube.com/embed/vyTWJcwN-Vk",
         "collaborators": [
+            ["Dancing Across Boundaries", "https://www.kayladesportes.com/project/dab/"],
+            ["STEM From Dance", "https://www.stemfromdance.org"],
             ["Yoav Bergner", "https://steinhardt.nyu.edu/people/yoav-bergner"],
-            ["Kayla Desportes", "https://www.kayladesportes.com"],
-            ["Dancing Across Boundaries", "https://www.kayladesportes.com/project/dab/"]
+            ["Kayla Desportes", "https://www.kayladesportes.com"]
         ],
         "description": "Domain specific programming language for building animations that react to movement.",
         "links": [
-            ["Use", "https://dancinganddabbing.github.io/danceON/"],
-            ["Video", "https://youtu.be/uV9mLV4qHeE"],
-            ["Code", "https://github.com/DancingAndDabbing/danceON"]
+            ["App", "https://dancinganddabbing.github.io/danceON/"],
+            ["Code", "https://github.com/DancingAndDabbing/danceON/tree/dev-naren"],
+            ["Student Performance", "https://youtu.be/g4VqEy9bPE0"],
+            ["CHI Paper", "https://doi.org/10.1145/3411764.3445149"]
         ]
     },
     {
@@ -43,16 +48,29 @@
         "tags": [
             "accessible music technology"
         ],
+        "video": "https://www.youtube.com/embed/u8j7AapyQPY",
         "collaborators": [
             ["Shaun Kane", "http://shaunkane.com"],
             ["Ann Paradiso", "https://www.microsoft.com/en-us/research/people/annpar/"],
             ["Microsoft Research Enable", "https://www.microsoft.com/en-us/research/group/enable/"]
         ],
-        "description": "Eye controlled synthesizer.",
+        "description": "Eye controlled synthesizer with sequencing and effects automation.",
         "links": [
-            ["Video", "https://youtu.be/u8j7AapyQPY"],
-            ["Paper", "https://www.nime.org/proceedings/2020/nime2020_paper112.pdf"],
-            ["Talk", "https://youtu.be/HoMXLqxte3k"]
+            ["NIME Paper", "https://www.nime.org/proceedings/2020/nime2020_paper112.pdf"]
+        ]
+    },
+    {
+        "title": "Single-Input Instruments",
+        "year": "2019",
+        "tags": [
+            "accessible music technology"
+        ],
+        "video": "https://www.youtube.com/embed/videoseries?list=PLpjVHkSreo8eobi52kEpa_g8Fwz4F4vZG",
+        "collaborators":[],
+        "description": "Series of audio-visual interactives that can be played with one button.",
+        "links": [
+            ["Project Page", "https://huriphoonado.github.io/code-of-music/posts/homework3/"],
+            ["Code", "https://github.com/Huriphoonado/code-of-music"]
         ]
     },
     {
@@ -61,17 +79,17 @@
         "tags": [
             "accessible music technology"
         ],
+        "video": "https://www.youtube.com/embed/mXTWnIrAsNQ",
         "collaborators": [
             ["Amy Hurst", "https://amyhurst.com"],
             ["Alex Yixuan Xu", "https://ayxx.me"],
             ["MusEDLab", "https://musedlab.org"]
         ],
-        "description": "Drum sequencing for improved screen reader use.",
+        "description": "Drum sequencer exploring non-visual interactions through keyboard nav, text-to-speech, and sonification.",
         "links": [
-            ["Use", "https://nyumusedlab.github.io/Accessible-Groove-Pizza/"],
-            ["Video", "https://youtu.be/mXTWnIrAsNQ"],
+            ["App", "https://nyumusedlab.github.io/Accessible-Groove-Pizza/"],
             ["Code", "https://github.com/NYUMusEdLab/Accessible-Groove-Pizza"],
-            ["Paper", "https://doi.org/10.1145/3308561.3354590"]
+            ["ASSETS Poster", "https://doi.org/10.1145/3308561.3354590"]
         ]
     },
     {
@@ -80,6 +98,7 @@
         "tags": [
             "creative coding"
         ],
+        "video": "https://www.youtube.com/embed/PF2H8772oE4",
         "collaborators": [
             ["Fabiha Ahmed", "https://github.com/fahmed3"],
             ["Matthew Kaney", "https://mindofmatthew.com"],
@@ -89,28 +108,8 @@
         ],
         "description": "Javascript API for interacting with BLE Tinkamo blocks in the browser for rapid physical computing prototypes.",
         "links": [
-            ["Use", "https://nyumusedlab.github.io/tinkaMOD/"],
-            ["Video", "https://youtu.be/PF2H8772oE4"],
+            ["App", "https://nyumusedlab.github.io/tinkaMOD/"],
             ["Code", "https://github.com/NYUMusEdLab/tinkaMOD"]
-        ]
-    },
-    {
-        "title": "Dance Dance Data Science (D3S)",
-        "year": "2018",
-        "tags": [
-            "culturally relevent",
-            "cs ed"
-        ],
-        "collaborators": [
-            ["Yoav Bergner", "https://steinhardt.nyu.edu/people/yoav-bergner"],
-            ["Ofer Chen", "https://steinhardt.nyu.edu/people/ofer-chen"],
-            ["Shiri Mund", "https://steinhardt.nyu.edu/people/shiri-mund"]
-        ],
-        "description": "Curricula and tech using motion capture to engage dancers in STEM.",
-        "links": [
-            ["Workshop", "https://ampedresearch.github.io/makered2019/"],
-            ["Paper", "https://doi.org/10.1007/s11423-020-09804-2"],
-            ["Paper", "https://doi.org/10.1145/3347122.3347137"]
         ]
     },
     {
@@ -120,6 +119,7 @@
             "experimental",
             "iPads"
         ],
+        "video": "https://player.vimeo.com/video/148741826?h=1249d7fad3&color=ff4747&title=0&byline=0&portrait=0",
         "collaborators": [
             ["Aidan Cook", "https://cookaidanp.wixsite.com/aidanpatrickcook"],
             ["Hunter Ewen", "https://www.hunterewen.com/"],
@@ -128,8 +128,7 @@
         ],
         "description": "Boulder Image and Sound Network - multimedia performance ensemble.",
         "links": [
-            ["Webpage", "http://hunterewen.com/bison/"],
-            ["Video", "https://vimeo.com/148741826"]
+            ["Project Page", "http://hunterewen.com/bison/"]
         ]
     },
     {
@@ -138,13 +137,14 @@
         "tags": [
             "new instrument for musical expression"
         ],
+        "video": "https://www.youtube.com/embed/7J9AKOVTT9U",
         "collaborators": [
-            ["Jiffer Harriman", "https://www.jifferharriman.com"]
+            ["Jiffer Harriman", "https://www.jifferharriman.com"],
+            ["JP Merz", "http://www.jpmerz.com"]
         ],
         "description": "Networked, ambient strings. Part of the Solid Noise Robot Ensemble.",
         "links": [
-            ["Webpage", "https://www.jifferharriman.com/projects#/solidnoise"],
-            ["Video", "https://vimeo.com/148741826"]
+            ["Project Page", "https://www.jifferharriman.com/projects#/solidnoise"]
         ]
     },
     {
@@ -153,10 +153,10 @@
         "tags": [
             "guitar effects"
         ],
+        "video": "https://www.youtube.com/embed/yGPvPbz8HCA",
         "collaborators": [],
-        "description": "Custom multi-effects processor developed in Max MSP supporting both standard and experimental tones.",
+        "description": "Multi-effects patch with standard and experimental sounds. Built in Max.",
         "links": [
-            ["Demo", "https://youtu.be/yGPvPbz8HCA"],
             ["Performance", "https://youtu.be/Tr8cWeARjOQ"]
         ]
     }

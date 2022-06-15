@@ -3,7 +3,7 @@
 import React from "react";
 
 import { useStaticQuery, graphql } from "gatsby";
-import { jsx, Styled, Text, Card, Box, Grid, Image } from "theme-ui";
+import { jsx, Themed, Text, Card, Box, Grid, Image } from "theme-ui";
 
 export default function BioCard(props) {
     const data = useStaticQuery(
@@ -47,7 +47,7 @@ export default function BioCard(props) {
                         }} src={node.frontmatter.image} />
                     </div>
                     <Card p={[2,4]}>
-                        <Styled.h1>About Willie</Styled.h1>
+                        <Themed.h2>About Willie</Themed.h2>
                         <div
                         sx={{
                             a: theme => theme.styles.a,

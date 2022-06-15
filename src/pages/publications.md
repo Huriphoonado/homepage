@@ -2,7 +2,7 @@
 type: publications
 title: Recent Publications
 ---
-Mentorship is important to me. Undergraduate students who enrolled in [Vertically Integrated Projects](https://meet.nyu.edu/academics/music-technology-and-accessibility-a-vertically-integrated-project/) are marked with † while Masters students I mentored for thesis credit are marked with ‡.
+Mentorship is important to me. Undergraduate students who enrolled in [Vertically Integrated Projects](https://meet.nyu.edu/academics/music-technology-and-accessibility-a-vertically-integrated-project/) are marked with † while Masters students I co-advised for thesis credit are marked with ‡.
 
 –––
 

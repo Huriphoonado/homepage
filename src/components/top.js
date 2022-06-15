@@ -1,7 +1,7 @@
 /** @jsx jsx */
 import React from "react";
 import { useStaticQuery, graphql } from "gatsby";
-import { jsx, Divider, Styled, Container } from 'theme-ui';
+import { jsx, Divider, Themed, Container } from 'theme-ui';
 import { ReactSVG } from 'react-svg';
 
 const Top = props => {
@@ -29,8 +29,8 @@ const Top = props => {
         <>
         <ReactSVG sx={{
             "svg":{
-                "fill":"sideImage",
-                "stroke":"sideImage",
+                "fill":"text",
+                "stroke":"text",
                 "position": ["absolute", "absolute"],
                 "right":[0, "min(0px, calc(90vw - 150vh))"],
                 "minHeight":["0px", "600px"],
@@ -49,18 +49,18 @@ const Top = props => {
                 "width":["100%", "60%", "50%"]
             }}>
                 <div sx={{mb: 5}}>
-                    <Styled.h1 sx={{fontSize:[8, 9, 10], fontWeight:"display", mb:0}}>{data.site.siteMetadata.title}</Styled.h1>
-                    <Styled.h2 sx={{mt:0}}>{data.site.siteMetadata.description}</Styled.h2>
+                    <Themed.h1>{data.site.siteMetadata.title}</Themed.h1>
+                    <Themed.h2 sx={{mt:0, fontSize: [4,5,6]}}>{data.site.siteMetadata.description}</Themed.h2>
                 </div>
                 <div sx={{ fontFamily:"heading"}}>
                     <div sx={{m: 0, my: 3, '& > p': { m:0 }}}>
-                        <Styled.h5 as="h3" sx={{fontWeight:"body", fontVariantCaps: "all-small-caps", mb:0}}>Interests</Styled.h5>
+                        <h3 sx={t => t.styles.h5}>Interests</h3>
                         <p>{data.site.siteMetadata.interests.professional.join(` • `)}</p>
                         <p>{data.site.siteMetadata.interests.personal.join(` • `)}</p>
                     </div>
                     <Divider sx={{borderColor: "text", width: "32px"}} />
                     <div sx={{my: 3, '& > p': { m:0 }}}>
-                        <Styled.h5 as="h3" sx={{fontWeight:"body", fontVariantCaps: "all-small-caps", m:0}}>Reach Me</Styled.h5>
+                        <h3 sx={t => t.styles.h5}>Reach Me</h3>
                         <p>{data.site.siteMetadata.info.email}</p>
                         <p>{data.site.siteMetadata.info.location}</p>
                     </div>

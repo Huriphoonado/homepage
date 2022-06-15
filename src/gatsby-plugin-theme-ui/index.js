@@ -1,15 +1,24 @@
 export default {
+    "config": {
+        "initialColorModeName": "light",
+        "useColorSchemeMediaQuery": "system"
+    },
     "breakpoints": ["40em", "62em", "64em"],
     "colors": {
         "text": "#3B393C",
         "background": "#FCFBF6",
         "primary": "#951F1F",
-        "secondary": "#CA424F",
         "highlightText": "#FFFFFF",
-        "old": "#F9F5F0",
-        "sideImage":"#3B393C",
         "muted": "#f2e9e4",
-        "lessMuted": "#ac7253"
+        "modes": {
+            "dark": {
+                "text": "hsl(210, 50%, 96%)",
+                "background": "#161617",
+                "primary": "hsl(260, 100%, 80%)",
+                "highlightText": "#000000",
+                "muted": "#1e202d"
+            }
+        }
     },
     "fonts": {
         "body": "brandon-grotesque, system-ui, sans-serif",
@@ -36,7 +45,7 @@ export default {
             "lineHeight": "body",
             "fontWeight": "body",
             "*::selection": {
-                "background": theme => theme.colors.secondary,
+                "background": theme => theme.colors.primary,
                 "color": theme => theme.colors.highlightText
             }
         },
@@ -56,11 +65,13 @@ export default {
         },
         "h1": {
             "variant": "textStyles.heading",
-            "fontSize": [5,6,7]
+            "fontSize":[8, 9, 10],
+            "fontWeight":"display",
+            "mb":0
         },
         "h2": {
             "variant": "textStyles.heading",
-            "fontSize": [4,5,6]
+            "fontSize": [5,6,7]
         },
         "h3": {
             "variant": "textStyles.heading",
@@ -75,14 +86,28 @@ export default {
         },
         "h5": {
             "variant": "textStyles.heading",
-            "fontSize": 2
+            "fontWeight": "body",
+            "mb":0,
+            "fontSize": 2,
+            "fontVariantCaps": "all-small-caps"
         },
         "h6": {
             "variant": "textStyles.heading",
             "fontFamily": "heading",
             "fontVariantCaps": "all-small-caps",
             "fontSize": 1,
-            "fontWeight": 900
+            "fontWeight": 900,
+            "mb":2,
+            "mt":3
+        },
+        "h7": {
+            "variant": "textStyles.heading",
+            "fontFamily": "heading",
+            "fontVariantCaps": "all-small-caps",
+            "fontSize": 1,
+            "fontWeight": 900,
+            "mb":0,
+            "mt":0
         },
         "a": {
             "color": "text",
@@ -106,7 +131,7 @@ export default {
         },
         "code": {
             "fontFamily": "monospace",
-            "color": "secondary",
+            "color": "text",
             "fontSize": 1
         },
         "inlineCode": {

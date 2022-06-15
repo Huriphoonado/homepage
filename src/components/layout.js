@@ -2,7 +2,7 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import { useStaticQuery, graphql } from "gatsby";
-import { jsx, Container, Divider } from 'theme-ui';
+import { jsx, Container, Divider, useThemeUI } from 'theme-ui';
 
 import Header from './header.js';
 import Top from './top.js';
@@ -27,6 +27,8 @@ export default function Layout(props) {
         `
     );
 
+    const { theme } = useThemeUI()
+
     return (
     <div className="application"
     sx={{
@@ -38,6 +40,7 @@ export default function Layout(props) {
         <Helmet>
             <html lang="en" />
             <meta charSet="utf-8" />
+            <meta name="theme-color" content={theme.colors.background} />
             <title>{data.site.siteMetadata.title}</title>
         </Helmet>
         <Header urlList={URLS} />
