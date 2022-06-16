@@ -26,7 +26,7 @@ export default function Header(props) {
     //const isBrowser = () => typeof window !== "undefined";
     let scrollDuration = 250;
     if (typeof window !== "undefined") {
-        scrollDuration = window.matchMedia('(prefers-reduced-motion: reduce)') ? 0 : 250;
+        scrollDuration = window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 0 : 250;
     }
 
     return (
