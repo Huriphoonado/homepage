@@ -44,17 +44,20 @@ export default function Layout(props) {
             <title>{data.site.siteMetadata.title}</title>
         </Helmet>
         <Header urlList={URLS} />
+        <main>
+
         <Top />
 
         <Container sx={{p:[4, 5, 6]}}>
-        <div id={URLS[0]} sx={{my:0, py:5}}><BioCard /></div>
+        <section id={URLS[0]} sx={{my:0, py:5}}><BioCard /></section>
         <Divider />
-        <div id={URLS[1]} sx={{my:0, py:5}}><Projects /></div>
+        <section id={URLS[1]} sx={{my:0, py:5}}><Projects /></section>
         <Divider />
-        <div id={URLS[2]} sx={{my:0, py:5}}><Publications /></div>
+        <section id={URLS[2]} sx={{my:0, py:5}}><Publications /></section>
         <Divider />
-        <div id={URLS[3]} sx={{my:0, pt:5}}><MediaEmbed /></div>
+        <section id={URLS[3]} sx={{my:0, pt:5}}><MediaEmbed /></section>
         </Container>
+        </main>
 
         <Footer />
     </div>)

@@ -37,7 +37,7 @@ const Top = props => {
                 "height":["100%", "100vh"],
                 "visibility":["hidden", "visible"],
                 "zIndex":-1}}}
-            src="top.svg" />
+            src="top.svg" alt="" />
         <Container sx={{
             "minHeight":["0px", "600px"],
             "height":["100%", "100vh"],

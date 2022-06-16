@@ -3,7 +3,7 @@ import { ScrollLink } from "react-scroll";
 import { NavLink, Themed } from "theme-ui";
 
 const NewLink = props => (
-    <Themed.a as={NavLink} {...props}>
+    <Themed.a {...props}>
       {props.children}
     </Themed.a>
 );

@@ -22,6 +22,10 @@ export default function Header(props) {
 
     const { theme } = useThemeUI();
 
+    // No smooth scroll if the user has set reduced motion in preferences
+    const motionCheck = window.matchMedia('(prefers-reduced-motion: reduce)');
+    let scrollDuration = motionCheck.matches ? 0 : 250;
+
     return (
         <div sx={{zIndex:1,}} css={{position: 'sticky', top: 0,
         ".active":{
@@ -39,13 +43,13 @@ export default function Header(props) {
         }}>
                 <div sx={{display: 'flex',  justifyContent: 'center'}}>
                     {props.urlList.map((u, i) => (
-                        <NavScrollLink key={u+1} to={u}
+                        <NavScrollLink href={'#'+u} key={u+1} to={u}
                             sx={{color: "inherit", variant: 'links.nav', p: 2}}
-                            activeClass="active" to={u} spy={true} smooth={true}
-                            offset={-84} duration={250}>{u}
+                            activeClass="active" spy={true} smooth={true}
+                            offset={-84} duration={scrollDuration}>{u}
                         </NavScrollLink>
                     ))}
-                    <NavScrollLink to="#!"
+                    <NavScrollLink href={'#'} to="#!"
                         sx={{color: "inherit",
                             variant: 'links.nav',
                             position:"absolute",
@@ -55,7 +59,7 @@ export default function Header(props) {
                             right:"12px",
                             p:2,
                             top:"-10%"}}
-                            onClick={() => scroll.scrollToTop({duration:250})}>wp
+                            onClick={() => scroll.scrollToTop({duration:scrollDuration})}>wp
                     </NavScrollLink>
                 </div>
         </header>
