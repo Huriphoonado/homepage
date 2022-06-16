@@ -1,11 +1,20 @@
 [
     {
+        "title": "Empowering Blind Musicians to Compose and Notate Music with SoundCells",
+        "authors": ["William Payne", "Fabiha Ahmed†", "Michael Zachor†", "Michael Gardell†", "Isabel Huey†", "R. Luke DuBois", "Amy Hurst"],
+        "year": "2022",
+        "venue": "ACM SIGACCESS Conference on Computers and Accessibility (ASSETS)",
+        "url": "https://assets22.sigaccess.org",
+        "note": "Just Accepted",
+        "type": "Conference Proceedings"
+    },
+    {
         "title": "AI + Dance: Co-Designing Culturally Sustaining Curricular Resources for AI and Ethics Education Through Artistic Computing",
         "authors": ["Francisco Enrique Vicente Castro", "Kayla DesPortes", "William Payne", "Yoav Bergner", "Kathleen McDermott"],
         "year": "2022",
         "venue": "ACM Conference on International Computing Education Research (ICER)",
         "url": "https://icer2022.acm.org",
-        "note": "",
+        "note": "Just Accepted",
         "type": "Posters and Demos"
     },
     {
@@ -14,7 +23,7 @@
         "year": "2022",
         "venue": "Movement and Computing (MOCO)",
         "url": "https://moco22.movementcomputing.org/program.html",
-        "note": "",
+        "note": "Just Accepted",
         "type": "Posters and Demos"
     },
     {
@@ -92,7 +101,7 @@
     {
         "title": "Non-Visual Composing and Coding",
         "authors": ["William Payne"],
-        "year": "2022",
+        "year": "2020",
         "venue": "ACM SIGACCESS Conference on Computers and Accessibility (ASSETS)",
         "url": "https://doi.org/10.1145/3458055.3458059",
         "note": "",
