@@ -23,8 +23,11 @@ export default function Header(props) {
     const { theme } = useThemeUI();
 
     // No smooth scroll if the user has set reduced motion in preferences
-    const motionCheck = window.matchMedia('(prefers-reduced-motion: reduce)');
-    let scrollDuration = motionCheck.matches ? 0 : 250;
+    //const isBrowser = () => typeof window !== "undefined";
+    let scrollDuration = 250;
+    if (typeof window !== "undefined") {
+        scrollDuration = window.matchMedia('(prefers-reduced-motion: reduce)') ? 0 : 250;
+    }
 
     return (
         <div sx={{zIndex:1,}} css={{position: 'sticky', top: 0,
