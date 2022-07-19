@@ -33,7 +33,7 @@ const Projects = props => {
             sx={{
                 display: 'grid',
                 gridGap: 3,
-                gridTemplateColumns: `repeat(auto-fit, minmax(380px, 1fr))`,
+                    gridTemplateColumns: [`repeat(auto-fit, minmax(100%, 1fr))`, `repeat(auto-fit, minmax(380px, 1fr))`],
         }}>
 
         {data.allProjectsJson.edges.map(({ node }) => {

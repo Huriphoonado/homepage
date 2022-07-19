@@ -10,6 +10,11 @@ To develop:
 $ npm start
 ```
 
+To build (before deploying):
+```shell
+$ npm run build
+```
+
 To deploy:
 ```shell
 $ npm run deploy

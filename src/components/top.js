@@ -32,14 +32,14 @@ const Top = props => {
                 "fill":"text",
                 "stroke":"text",
                 "position": ["absolute", "absolute"],
-                "right":[0, "min(0px, calc(90vw - 150vh))"],
-                "minHeight":["0px", "600px"],
-                "height":["100%", "100vh"],
+                "right": [0, "min(0px, calc(100vw - 150vh), calc(100vw - 150vh))"],
+                "minHeight": ["0px", "400px", "600px"],
+                "height":["100vh", "100vh"],
                 "visibility":["hidden", "visible"],
                 "zIndex":-1}}}
             src="top.svg" alt="" />
         <Container sx={{
-            "minHeight":["0px", "600px"],
+            "minHeight": ["0px", "400px", "600px"],
             "height":["100%", "100vh"],
             p:[4,5,6], // 7 if the breakpoint gets right
 
