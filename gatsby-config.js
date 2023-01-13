@@ -14,6 +14,7 @@ module.exports = {
             {name: `github`, url: `https://github.com/Huriphoonado`},
             {name: `Ability Project`, url: `https://wp.nyu.edu/ability/team/`},
             {name: `Music + Audio Research Lab`, url: `https://steinhardt.nyu.edu/marl/about/team`},
+            {name: `FMDG Music School`, url: `https://fmdgmusicschool.org/faculty-staff/` },
             {name: `LEARN`, url: `https://steinhardt.nyu.edu/learn/about/team`},
         ],
         githubURL: `https://github.com/Huriphoonado`,

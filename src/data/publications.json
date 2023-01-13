@@ -1,11 +1,23 @@
 [
     {
+        "title": "'We Avoid PDFs': Improving Notation Access for Blind and Visually Impaired Musicians",
+        "authors": [
+            "William Payne",
+            "Amy Hurst"
+        ],
+        "year": "2023",
+        "venue": "iConference",
+        "url": "https://www.ischools.org/iconference-2023-agenda",
+        "note": "Just Accepted",
+        "type": "Conference Proceedings"
+    },
+    {
         "title": "Empowering Blind Musicians to Compose and Notate Music with SoundCells",
         "authors": ["William Payne", "Fabiha Ahmed†", "Michael Zachor†", "Michael Gardell†", "Isabel Huey†", "R. Luke DuBois", "Amy Hurst"],
         "year": "2022",
         "venue": "ACM SIGACCESS Conference on Computers and Accessibility (ASSETS)",
-        "url": "https://assets22.sigaccess.org",
-        "note": "Just Accepted",
+        "url": "https://doi.org/10.1145/3517428.3544825",
+        "note": "",
         "type": "Conference Proceedings"
     },
     {
@@ -13,8 +25,8 @@
         "authors": ["Francisco Enrique Vicente Castro", "Kayla DesPortes", "William Payne", "Yoav Bergner", "Kathleen McDermott"],
         "year": "2022",
         "venue": "ACM Conference on International Computing Education Research (ICER)",
-        "url": "https://icer2022.acm.org",
-        "note": "Just Accepted",
+        "url": "https://dl.acm.org/doi/10.1145/3501709.3544275",
+        "note": "",
         "type": "Posters and Demos"
     },
     {
