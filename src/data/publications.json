@@ -1,5 +1,35 @@
 [
     {
+        "title": "Live Coding Ensemble as Accessible Classroom",
+        "authors": [
+            "William Payne",
+            "Matthew Kaney",
+            "Yuhua Cao†",
+            "Eric Xu†",
+            "Xinran Shen†",
+            "Katrina Lee†",
+            "Amy Hurst"
+        ],
+        "year": "2023",
+        "venue": "New Interfaces for Musical Expression (NIME)",
+        "url": "https://www.nime2023.org",
+        "note": "to appear",
+        "type": "Conference Proceedings"
+    },
+    {
+        "title": "Addressing Accessibility for Blind and Visually Impaired Live Coders",
+        "authors": [
+            "William Payne",
+            "Matthew Kaney",
+            "Amy Hurst"
+        ],
+        "year": "2023",
+        "venue": "International Conference on Live Coding (ICLC)",
+        "url": "https://iclc.toplap.org/2023/",
+        "note": "to appear",
+        "type": "Conference Proceedings"
+    },
+    {
         "title": "'We Avoid PDFs': Improving Notation Access for Blind and Visually Impaired Musicians",
         "authors": [
             "William Payne",
@@ -7,8 +37,8 @@
         ],
         "year": "2023",
         "venue": "iConference",
-        "url": "https://www.ischools.org/iconference-2023-agenda",
-        "note": "Just Accepted",
+        "url": "https://doi.org/10.1007/978-3-031-28032-0_44",
+        "note": "",
         "type": "Conference Proceedings"
     },
     {
