@@ -7,16 +7,16 @@ export default {
     "colors": {
         "text": "#3B393C",
         "background": "#FCFBF6",
-        "primary": "#951F1F",
+        "primary": "#1E5C75", // Payne's Gray
         "highlightText": "#FFFFFF",
-        "muted": "#f2e9e4",
+        "muted": "#e8edea",
         "modes": {
             "dark": {
                 "text": "hsl(210, 50%, 96%)",
-                "background": "#161617",
-                "primary": "hsl(260, 100%, 80%)",
-                "highlightText": "#000000",
-                "muted": "#1e202d"
+                "background": "#0E1F38",
+                "primary": "#FFD100",
+                "highlightText": "#0E1F38",
+                "muted": "#112544"
             }
         }
     },
