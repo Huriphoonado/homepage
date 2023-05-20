@@ -1,7 +1,7 @@
 module.exports = {
     siteMetadata: {
         title: `Willie Payne`,
-        description:`PhD Candidate in Music Technology at NYU`,
+        description:`Assistant Professor at UNC-Chapel Hill`,
         interests: {
             professional: [`Creative Expression`, `Accessibility`, `CS Ed`],
             personal: [`Comics`, `Coffee`, `Running`, `New Music`, `New Fiction`]
