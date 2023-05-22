@@ -3,7 +3,7 @@
 import React from "react";
 
 import { useStaticQuery, graphql } from "gatsby";
-import { jsx, Themed, Text, Card, Box, Grid, Image } from "theme-ui";
+import { jsx, Themed, Text, Card, Box, Grid, Image, useColorMode } from "theme-ui";
 
 export default function BioCard(props) {
     const data = useStaticQuery(
@@ -17,6 +17,7 @@ export default function BioCard(props) {
                         frontmatter {
                             title
                             image
+                            imageDark
                             imageDescription
                         }
                     }
@@ -31,6 +32,12 @@ export default function BioCard(props) {
 
         <div>
         {data.allMarkdownRemark.edges.map(({ node }) => {
+            
+            const [colorMode, setColorMode] = useColorMode();
+            const photoToUse = colorMode === 'light' 
+                             ? node.frontmatter.image 
+                             : node.frontmatter.imageDark;
+            
             return(
                 <Grid key={node.id} gap={[0, 3]} columns={[ 1, 1, '1fr 2fr' ]}>
                     <div sx={{position: "relative",}}>
@@ -44,7 +51,7 @@ export default function BioCard(props) {
                             width:["100%", "256px"],
                             objectFit:"cover",
                             borderRadius: ["6px 6px 0px 0px", "6px"],
-                        }} src={node.frontmatter.image} />
+                        }} src={photoToUse} />
                     </div>
                     <Card p={[2,4]}>
                         <Themed.h2>About Willie</Themed.h2>
