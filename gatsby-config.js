@@ -8,7 +8,7 @@ module.exports = {
         },
         info: {
             location:`Upper West Side, NYC`,
-            email: `william [dot] payne [at] nyu [dot] edu`
+            email: `william [dot] payne [at] unc [dot] edu`
         },
         otherSites: [
             {name: `github`, url: `https://github.com/Huriphoonado`},
