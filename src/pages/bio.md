@@ -1,8 +1,8 @@
 ---
 type: bio
 title: hello!
-image: new-selfie.jpg
-imageDark: selfie2.jpg
+image: headshot.jpg
+imageDark: headshot.jpg
 imageDescription: Skinny Jewish dude with short curly hair and transparent, silver glasses.
 ---
 **News!** I am an [incoming Assistant Professor of User Experience / Design](https://sils.unc.edu/news/2023/SILS-welcomes-five-new-faculty-members) at the [UNC-Chapel Hill School of Information and Library Science (SILS)](https://sils.unc.edu/) beginning in fall 2023.

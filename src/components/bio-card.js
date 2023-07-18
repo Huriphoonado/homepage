@@ -33,6 +33,7 @@ export default function BioCard(props) {
         <div>
         {data.allMarkdownRemark.edges.map(({ node }) => {
             
+            // currently works in build, but not deploy
             const [colorMode, setColorMode] = useColorMode();
             const photoToUse = colorMode === 'light' 
                              ? node.frontmatter.image 
