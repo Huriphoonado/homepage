@@ -12,10 +12,9 @@ module.exports = {
         },
         otherSites: [
             {name: `github`, url: `https://github.com/Huriphoonado`},
+            { name: `SILS`, url: `https://sils.unc.edu/directory/faculty` },
             {name: `Ability Project`, url: `https://wp.nyu.edu/ability/team/`},
-            {name: `Music + Audio Research Lab`, url: `https://steinhardt.nyu.edu/marl/about/team`},
             {name: `FMDG Music School`, url: `https://fmdgmusicschool.org/faculty-staff/` },
-            {name: `LEARN`, url: `https://steinhardt.nyu.edu/learn/about/team`},
         ],
         githubURL: `https://github.com/Huriphoonado`,
         videoEmbed:`https://www.youtube.com/embed/videoseries?list=PLpjVHkSreo8c_bC4di4vdy_NdX_nEM8sT`
@@ -48,7 +47,7 @@ module.exports = {
                 google: {
                     families: ['Crimson Pro', 'Liu Jian Mao Cao']
                 },
-                typekit: { id: 'ylw0uzf' }
+                typekit: { id: 'vsx8uaw' }
             }
         },
         'gatsby-plugin-theme-ui',
