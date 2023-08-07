@@ -7,7 +7,7 @@ module.exports = {
             personal: [`Comics`, `Coffee`, `Running`, `New Music`, `New Fiction`]
         },
         info: {
-            location:`Upper West Side, NYC`,
+            location:`Chapel Hill, NC`,
             email: `william [dot] payne [at] unc [dot] edu`
         },
         otherSites: [
