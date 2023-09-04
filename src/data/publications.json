@@ -1,5 +1,25 @@
 [
     {
+        "title": "Approaches to Making Live Code Accessible in a Mixed-Vision Music Ensemble",
+        "authors": [
+            "William Payne",
+            "Xinran Shen†",
+            "Eric Xu†",
+            "Matthew Kaney",
+            "Maya Graves",
+            "Matthew Herrera",
+            "Madeline Mau",
+            "Diana Murray",
+            "Vinnie Wang",
+            "Amy Hurst"
+        ],
+        "year": "2023",
+        "venue": "ACM SIGACCESS Conference on Computers and Accessibility (ASSETS)",
+        "url": "https://assets23.sigaccess.org/index.html",
+        "note": "Just Accepted",
+        "type": "Posters and Demos"
+    },
+    {
         "title": "Live Coding Ensemble as Accessible Classroom",
         "authors": [
             "William Payne",

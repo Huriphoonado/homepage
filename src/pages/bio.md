@@ -5,7 +5,7 @@ image: headshot.jpg
 imageDark: headshot.jpg
 imageDescription: Skinny Jewish dude with short curly hair and transparent, silver glasses.
 ---
-**News!** I am an [incoming Assistant Professor of User Experience / Design](https://sils.unc.edu/news/2023/SILS-welcomes-five-new-faculty-members) at the [UNC-Chapel Hill School of Information and Library Science (SILS)](https://sils.unc.edu/) beginning in fall 2023.
+I am an [Assistant Professor of User Experience / Design at the UNC-Chapel Hill School of Information and Library Science (SILS)](https://sils.unc.edu/people/faculty/profiles/William-Payne).
 
 I study how technology can facilitate creative expression and open pathways for people to express themselves on their own terms. I am especially interested in accessible musical instruments and creative coding environments. I use a participatory approach to research in which I work closely with end-users throughout a design process and situate interventions in authentic learning and art making environments.
 
