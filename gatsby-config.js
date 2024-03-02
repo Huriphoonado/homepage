@@ -12,7 +12,7 @@ module.exports = {
         },
         otherSites: [
             {name: `github`, url: `https://github.com/Huriphoonado`},
-            { name: `SILS`, url: `https://sils.unc.edu/directory/faculty` },
+            { name: `SILS`, url: `https://sils.unc.edu/` },
             {name: `Ability Project`, url: `https://wp.nyu.edu/ability/team/`},
             {name: `FMDG Music School`, url: `https://fmdgmusicschool.org/faculty-staff/` },
         ],

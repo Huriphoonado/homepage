@@ -1,13 +1,13 @@
 ---
 type: bio
 title: hello!
-image: headshot.jpg
+image: selfie4.jpg
 imageDark: headshot.jpg
 imageDescription: Skinny Jewish dude with short curly hair and transparent, silver glasses.
 ---
-I am an [Assistant Professor of User Experience / Design at the UNC-Chapel Hill School of Information and Library Science (SILS)](https://sils.unc.edu/people/faculty/profiles/William-Payne).
+I am an [Assistant Professor of User Experience / Design at the UNC-Chapel Hill School of Information and Library Science (SILS)](https://sils.unc.edu/people/william-willie-payne/).
 
-I study how technology can facilitate creative expression and open pathways for people to express themselves on their own terms. I am especially interested in accessible musical instruments and creative coding environments. I use a participatory approach to research in which I work closely with end-users throughout a design process and situate interventions in authentic learning and art making environments.
+I study how technology can facilitate creative expression and open pathways for people to express themselves on their own terms. I build accessible musical instruments and creative coding environments. I use a participatory approach to research in which I work closely with end-users throughout a design process and situate interventions in authentic learning and art making environments.
 
 I have published work at highly selective HCI conferences. I recently won [Best Technical Paper at Web4All '22](https://www.w4a.info/2022/?page_id=348) and [Best Paper Honorable Mention at CHI '21](https://programs.sigchi.org/chi/2021/program/content/47810). I  regularly co-author with undergraduate students. My [mentorship efforts received recognition at NYU](https://meet.nyu.edu/academics/music-technology-and-accessibility-a-vertically-integrated-project/), and my students won [3rd place at the NYU Engineering Research Expo](https://engineering.nyu.edu/research-innovation/student-research/research-excellence-exhibit).
 
