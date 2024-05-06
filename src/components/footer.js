@@ -9,6 +9,7 @@ export default function Footer(props) {
             site {
                 siteMetadata {
                     title
+                    lastUpdated
                     otherSites {
                         name
                         url
@@ -38,7 +39,7 @@ export default function Footer(props) {
                  )
              })}
             <div sx={{ mx: 'auto' }} />
-            <div sx={{ p: 2, fontSize: 3, fontFamily:'writing' }}>{data.site.siteMetadata.title} - 2023</div>
+            <div sx={{ p: 2, fontSize: 3, fontFamily: 'writing' }}>{data.site.siteMetadata.title} - {data.site.siteMetadata.lastUpdated}</div>
         </footer>
     )
 }

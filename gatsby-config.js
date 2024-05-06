@@ -6,13 +6,14 @@ module.exports = {
             professional: [`Creative Expression`, `Accessibility`, `CS Ed`],
             personal: [`Comics`, `Coffee`, `Running`, `New Music`, `New Fiction`]
         },
+        lastUpdated: '2024',
         info: {
             location:`Chapel Hill, NC`,
             email: `william [dot] payne [at] unc [dot] edu`
         },
         otherSites: [
             {name: `github`, url: `https://github.com/Huriphoonado`},
-            { name: `SILS`, url: `https://sils.unc.edu/` },
+            {name: `SILS`, url: `https://sils.unc.edu/` },
             {name: `Ability Project`, url: `https://wp.nyu.edu/ability/team/`},
             {name: `FMDG Music School`, url: `https://fmdgmusicschool.org/faculty-staff/` },
         ],

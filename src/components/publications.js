@@ -91,7 +91,7 @@ const Publications = props => {
     return (
         <>
         <Themed.h2>Publications</Themed.h2>
-        <p>Mentorship is important to me. Undergraduate students who enrolled in Vertically Integrated Projects are marked with † while Masters students I mentored for thesis credit are marked with ‡.</p>
+        <p>Mentorship is important to me. Undergraduate research assistants are marked with † while Masters students I mentored for thesis credit are marked with ‡.</p>
         {allPubs.map(p => p.allHTML)}
         </>
     );
