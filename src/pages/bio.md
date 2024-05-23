@@ -1,7 +1,7 @@
 ---
 type: bio
 title: hello!
-image: selfie4.jpg
+image: selfie5.jpg
 imageDark: headshot.jpg
 imageDescription: Skinny Jewish dude with short curly hair and transparent, silver glasses.
 ---
