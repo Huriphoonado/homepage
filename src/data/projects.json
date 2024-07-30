@@ -1,5 +1,43 @@
 [
     {
+        "title": "FiLOrk",
+        "year": "2024",
+        "tags": [
+            "accessible music technology",
+            "creative coding"
+        ],
+        "video": "https://www.youtube.com/embed/hY_H0l0opjc?si=Fo6zffKJBeI8NcOM",
+        "collaborators": [
+            [
+                "FMDG School",
+                "https://fmdgmusicschool.org"
+            ],
+            [
+                "LiveCode.NYC",
+                "https://livecode.nyc/"
+            ],
+            [
+                "NYU Ability Project",
+                "https://wp.nyu.edu/ability/"
+            ]
+        ],
+        "description": "Teen-led ensemble performing electronic music with live code.",
+        "links": [
+            [
+                "Code",
+                "https://github.com/mindofmatthew/text.management"
+            ],
+            [
+                "C&C Paper",
+                "https://doi.org/10.1145/3635636.3656200"
+            ],
+            [
+                "NIME Paper",
+                "https://www.nime2023.org/program/papers#h.6z3xivjmv0cw"
+            ]
+        ]
+    },
+    {
         "title": "SoundCells",
         "year": "2022",
         "tags": [
@@ -74,25 +112,6 @@
         ]
     },
     {
-        "title": "Non-Visual Beats",
-        "year": "2019",
-        "tags": [
-            "accessible music technology"
-        ],
-        "video": "https://www.youtube.com/embed/mXTWnIrAsNQ",
-        "collaborators": [
-            ["Amy Hurst", "https://amyhurst.com"],
-            ["Alex Yixuan Xu", "https://ayxx.me"],
-            ["MusEDLab", "https://musedlab.org"]
-        ],
-        "description": "Drum sequencer exploring non-visual interactions through keyboard nav, text-to-speech, and sonification.",
-        "links": [
-            ["App", "https://nyumusedlab.github.io/Accessible-Groove-Pizza/"],
-            ["Code", "https://github.com/NYUMusEdLab/Accessible-Groove-Pizza"],
-            ["ASSETS Poster", "https://doi.org/10.1145/3308561.3354590"]
-        ]
-    },
-    {
         "title": "TinkaMOD",
         "year": "2018",
         "tags": [
@@ -106,7 +125,7 @@
             ["Andrew Lucero", "https://github.com/al4991"],
             ["Lisa Ye", "https://github.com/lisaye1999"]
         ],
-        "description": "Javascript API for interacting with BLE Tinkamo blocks in the browser for rapid physical computing prototypes.",
+        "description": "Rapid prototyping with Tinkamo blocks and Javascript.",
         "links": [
             ["App", "https://nyumusedlab.github.io/tinkaMOD/"],
             ["Code", "https://github.com/NYUMusEdLab/tinkaMOD"]
