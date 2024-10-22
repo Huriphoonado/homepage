@@ -1,9 +1,9 @@
 ---
 type: bio
 title: hello!
-image: selfie5.jpg
-imageDark: headshot.jpg
-imageDescription: Skinny Jewish dude with short curly hair and transparent, silver glasses.
+image: teaching.jpg
+imageDark: teaching.jpg
+imageDescription: Skinny Jewish dude in his early thirties with short curly hair, and silver, wireframe glasses.
 ---
 I am an [Assistant Professor of User Experience / Design at the UNC-Chapel Hill School of Information and Library Science (SILS)](https://sils.unc.edu/people/william-willie-payne/).
 
@@ -16,4 +16,4 @@ My articles are published mainly at HCI (Human Computer Interaction) conferences
 
 I graduated in 2023 with a PhD in Music Technology at NYU where I was advised by [Amy Hurst](http://amyhurst.com), and mentored by [Yoav Bergner](https://steinhardt.nyu.edu/people/yoav-bergner), [Kayla DesPortes](https://www.kayladesportes.com), and [R. Luke DuBois](https://www.lukedubois.com). Before that, I earned a BS/MS in Computer Science and a BM in Music Composition from CU Boulder, where I studied with [Shaun Kane](http://shaunkane.com), [Clayton Lewis](https://spot.colorado.edu/~clayton/), and [Michael Theodore](https://michaeltheodore.info).
 
-[Download my CV.](Payne_CV_ss24.pdf)
+[Download my CV.](Payne-CV.pdf)
